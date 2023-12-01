@@ -1,0 +1,5 @@
+.DS_Store
+**/dwsync.xml
+src/config/Configuration.php
+src/config/Secrets.php
+

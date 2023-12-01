@@ -1,0 +1,10 @@
+<?php
+
+class Configuration
+{
+	// Array with email addresses of the people who must be notified of new members
+	public const NewMemberRecipients = array('');
+
+	// Email address of the person that receives error log entries sent by mail
+	public const ErrorRecipient = '';
+}

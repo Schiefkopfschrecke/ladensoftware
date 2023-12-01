@@ -1,0 +1,763 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+
+
+
+* {
+
+	color:#000;
+
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial;
+
+	font-size:1.1rem;
+
+	line-height:1.5rem;
+
+}
+
+
+
+body {
+
+	background-color: #B3D5D9;
+
+	border:0px;
+
+	margin:0px;
+
+	padding:0px;
+
+}
+
+
+
+p {
+
+}
+
+
+
+h1 {
+
+	font-size:1.8rem;
+
+}
+
+
+
+h2 {
+
+	font-size:1.5rem;
+
+}
+
+
+
+small {
+
+	font-size:0.5rem;
+
+	
+
+}
+
+
+
+a:link {
+
+	color:#a70404;
+
+	text-decoration:none;
+
+}
+
+
+
+a:visited {
+
+	color:#a70404;
+
+}
+
+
+
+a:hover {
+
+	text-decoration:underline;
+
+}
+
+
+
+a:active {
+
+}
+
+
+
+table {
+
+   border:1px solid #01737F;
+
+   border-spacing: 0px;
+
+   max-width:100%;
+
+/*   width:600px;*/
+
+}
+
+
+
+th {
+
+	text-align: left; 
+
+}
+
+
+
+tr:nth-child(odd) {
+
+	background-color: rgba(1, 115, 127,0.4);
+
+}
+
+
+
+tr:nth-child(even) {
+
+   background-color:transparent;
+
+}
+
+td {
+
+	padding:10px;
+
+}
+
+td:first-child {
+
+	max-width:200px;
+
+
+
+}
+
+
+
+fieldset {
+
+	border:0px solid #a70404;
+
+	border-radius:5px;
+
+	display:inline;
+
+	padding-left:20px;
+
+	padding-right:20px;
+
+	width:40%;
+
+}
+
+
+
+legend {
+
+	padding:0px 10px 0px 10px;
+
+}
+
+
+
+input {
+
+	border:0px;
+
+	border-bottom: 1px solid #01737F;
+
+	border-left: 1px solid #01737F;
+
+}
+
+
+
+input.button {
+
+	border-bottom: 1px solid #a70404;
+
+	border-left: 1px solid #a70404;
+
+	width:auto;	
+
+}
+
+
+
+input.button:hover {
+
+	background:#a70404;
+
+	color:#fff;
+
+	width:auto;	
+
+}
+
+
+
+input.radio {
+
+	border:1px solid #a70404;	
+
+	background:#a70404;
+
+	width:auto;
+
+}
+
+
+
+
+
+textarea {
+
+	border:1px solid #a70404;
+
+	border-radius:5px;
+
+	resize:none;
+
+	width:100%
+
+}
+
+
+
+select {
+
+	border:1px solid #a70404;
+
+	border-radius:5px;
+
+	width:100%
+
+}
+
+
+
+
+
+nav {
+
+	display:inline-block;
+
+	margin-right: 0px;
+
+	margin-top:5px;
+
+	text-align:center;
+
+	width:100%;
+
+}
+
+nav ul {
+
+    list-style: none;
+
+	margin:0px;
+
+	padding:0px;
+
+}
+
+nav li {
+
+	display:inline-block;
+
+	margin:0 3px 0 3px;
+
+	padding:0 15px 5px 15px;
+
+	
+
+}
+
+nav li:hover {
+
+	background-color:rgba(255,255,255,0.65);
+
+}
+
+
+
+nav a {
+
+	display:block;
+
+	font-size:1.2rem;
+
+	text-decoration:none;
+
+}
+
+nav a:link {
+
+}
+
+nav a:visited {
+
+}
+
+nav a:hover {
+
+}
+
+nav a:active {
+
+}
+
+
+
+
+
+/*##### ID's #####*/
+
+
+
+#seite {
+
+	background-color:rgba(255,255,255,0.00);
+
+	
+
+	margin:0px auto;
+
+	max-width: 800px;
+
+	padding:10px;
+
+	/*margin-top:30px;*/
+
+}
+
+#content {
+
+	/*border-bottom: #01737F solid 5px;
+
+	border-top: #01737F solid 5px;*/
+
+	margin-bottom:10px;
+
+	margin-top:10px;
+
+	padding-bottom:10px;
+
+	padding-top:10px;
+
+	width:100%;
+
+}
+
+
+
+
+
+#subnav {
+
+	display:inline-block;
+
+	margin-right:0px;
+
+	text-align:right;
+
+	width:100%; 
+
+}
+
+
+
+#subnav ul {
+
+    list-style: none;
+
+
+}
+
+
+
+#subnav li {
+
+	border-right: 1px solid black;
+
+	display:inline-block;
+	font-size:0.7rem;
+
+	padding:0 10px 0 10px;
+
+	margin:0 3px 0 3px;
+
+}
+
+
+
+
+
+#subnav li:last-child {
+
+	border-right: 0px;
+
+}
+
+
+
+#subnav a {
+
+	font-size:0.7rem;
+	text-decoration:none;
+
+}
+
+#subnav a:link {
+
+}
+
+#subnav a:visited {
+
+}
+
+#subnav a:hover {
+
+}
+
+#subnav a:active {
+
+}
+
+
+
+#copy {
+
+	float:right;	
+
+	width:80%;
+
+}
+
+#copy p, #copy a {
+
+	font-size:0.7rem;
+
+	text-align:right;
+
+}
+
+
+#content h1 {
+
+	color:#01737F;
+
+	font-size:2rem;
+
+	font-weight:bold;
+
+}
+
+
+
+#content h2 {
+
+	color:#01737F;
+
+	font-size:1.5rem;
+
+	font-weight:bold;
+
+}
+
+
+
+#content h3 {
+
+	color:#01737F;
+
+	font-size:1rem;
+
+	font-weight:bold;
+
+}
+
+#einkauf_abschliessen {
+	background: #a70404;
+	color: white;
+}
+#einkauf_abschliessen:hover {
+	background: white;
+	color: black;
+}
+
+
+.clearfix {
+
+   clear:both;
+
+   display: block;
+
+   height: 0px;
+
+   visibility: hidden;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+	nav li {
+
+		padding: 0 7px 5px 7px;
+
+	}
+
+
+
+}
+
+@media screen and (max-width:580px) {
+	
+	* {
+		font-size: 0.9rem;
+	}
+
+	img {
+
+		align-content:center;
+
+		max-width:90%;
+
+		text-align:center;
+
+	}
+
+	td:first-child {
+
+		max-width:none;
+
+		width:auto;
+
+	}
+
+
+
+	input {
+
+		display:block;
+
+		margin-left:auto;
+
+		margin-right:auto;
+
+		margin-top:3px ;
+
+	}
+	
+	table {
+		width: auto;
+		max-width: none;
+	}
+	tr, td, th {
+		width: auto;
+		max-width: 100%;
+	}
+	#content h1 {
+
+		font-size:1.5;
+
+	}
+
+	#content h2 {
+
+		font-size:1.2rem;
+
+	}
+
+	#content h3 {
+
+		font-size:1.1rem;
+
+	}
+
+	
+
+	#seite {
+
+		box-shadow:none;
+
+		margin:0px;
+
+		max-width:100%;
+
+		padding:2px;
+
+	}
+	#produkteliste {
+	}
+	#content {
+
+		border-top:0px;
+		max-width: 100%;
+		padding:0px;
+
+	}
+
+	nav {
+
+		display:inline;
+
+	}
+
+	nav img {
+
+		display:none;
+
+	}
+
+	nav li {
+
+		margin:1px 0px;
+
+		padding:0px;
+
+		width:100%;
+
+	}
+
+	nav a {
+
+		display:block;
+
+		background:#01737F;
+
+		padding:5px 0px;
+
+	}
+
+	nav br {
+
+		display:none;
+
+	}
+
+	#subnav {
+
+		position:relative;
+
+		display:block;
+
+		text-align:center;
+
+		width:100%;
+
+	}
+
+	#subnav ul {
+
+		margin:0px 3px;
+
+		padding:0px 3px;
+
+	}
+
+	#subnav li {
+
+		margin:0px 3px;
+
+		padding:0px 10px;
+
+	}
+
+
+
+}
+
+@media print  {
+
+	footer, nav, #subnav {
+
+		display:none;
+
+		visibility:hidden;
+
+	}
+
+	body {
+
+		background:none;
+
+	}
+
+	#content {
+
+		border:0px;
+
+		display:block;
+
+		margin:0px;
+
+		padding:0px;
+
+		visibility:visible;
+
+	}
+
+	#seite {
+
+		box-shadow:none;
+
+		height:auto;
+
+		margin:0px;
+
+		padding:0px;
+
+	}
+
+	#content a, #content h1, #content h2, #content h3 {
+
+		color:black;
+
+		line-height:normal;
+
+		margin:0px;
+
+		padding:0px;
+
+	}
+
+	
+	#content a {
+
+		font-size:1.2rem;
+
+		line-height:normal;
+
+	}
+
+	
+
+
+
+}
+

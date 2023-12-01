@@ -1,0 +1,180 @@
+/* CSS Document */
+
+html,
+
+body {
+
+	font: 100% 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+
+	color: #222;
+
+	font-size: 12px;
+
+}
+
+h1 {
+
+	font-size: 1.5rem;
+
+}
+
+h2 {
+
+	font-size: 1.25rem;
+
+}
+
+a {
+
+	text-decoration: none;
+
+	color: #e52300;
+
+}
+
+a:link {}
+
+a:visited {}
+
+a:hover {
+
+	text-decoration: underline;
+
+}
+
+a:active {}
+
+textarea {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
+	height: 400px;
+	width: 600px;
+}
+
+table {
+
+	border-collapse: collapse;
+
+}
+
+tr:hover {
+
+	background-color: #6b90ec;
+
+}
+
+th {
+
+	color: #fff;
+
+	text-decoration: none;
+
+}
+
+th {
+
+	font-weight: bold;
+
+}
+
+th {
+
+	background-color: none;
+
+}
+
+tr:nth-of-type(odd) {
+
+	background-color: #79c0fc;
+
+}
+
+td {
+
+	padding: 3px;
+
+	border: 1px solid #19609c;
+
+}
+
+label {
+
+	display: inline-block;
+
+	width: 150px;
+
+	vertical-align: top;
+
+}
+
+nav {
+
+	margin-right: 0px;
+
+	display: inline-block;
+
+	margin-top: 5px;
+
+	width: 100%;
+
+}
+
+nav ul {
+
+	list-style: none;
+
+	margin: 0px;
+
+	padding: 0px;
+
+}
+
+nav li {
+
+	text-align: center;
+
+	display: inline-block;
+
+	padding: 0 30px;
+
+	border-width: 2px;
+
+	border-radius: 10px 10px 0px 0px;
+
+	border-color: #19609c;
+
+	border-style: solid;
+
+	background-color: #79c0fc;
+	font-size: 1.25rem;
+
+}
+
+.selected {
+
+	border-bottom: 0px hidden #fff;
+
+	background-color: #fff;
+
+}
+
+nav a {
+
+	text-decoration: none;
+
+	color: #e52300;
+
+}
+
+nav a:link {}
+
+nav a:visited {}
+
+nav a:hover {}
+
+nav a:active {}
+
+footer {
+
+	margin-top: 50px;
+
+}

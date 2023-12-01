@@ -1,0 +1,22 @@
+Sperren wenn unter 50.-
+
+In Datenbank erfassen, was ausgegangen ist 
+
+Textbearbeitungsfeld bei Lieferantenbeschrieben
+Distinct für Lieferantendropdown https://www.php-kurs.com/mysql-select-anweisung.htm
+Benutzername nicht vergeben
+XX ausmerzen
+Suche in Produkten
+
+Lieferantenverwaltung
+Journalkonforme Transaktionsliste
+
+
+
+einkaufen nach Produktename
+Sortieren Mitgliederliste
+
+Verschlüsseln Emailadressen
+
+Einbindung Abos
+Mengenverwaltung
